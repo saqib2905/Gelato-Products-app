@@ -1,12 +1,17 @@
 {
-  "name": "gelato-products-app",
+  "name": "gelato-task",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^3.8.1",
+    "axios": "^0.18.0",
+    "base-64": "^0.1.0",
+    "prop-types": "^15.6.2",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
-    "react-scripts": "2.1.3"
+    "react-scripts": "^2.1.3"
   },
+  "proxy": "https://rocky-citadel-32443.herokuapp.com",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
